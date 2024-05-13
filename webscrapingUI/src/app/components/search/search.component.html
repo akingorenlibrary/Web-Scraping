@@ -1,0 +1,88 @@
+<div class="container mt-3">
+
+  <div class="row p-5 mt-5">
+    <div class="col-md-12">
+      <div class="input-group">
+        <input type="text" name="search" class="form-control" placeholder="Search" aria-label="Search"
+          aria-describedby="button-addon2" [(ngModel)]="searchText">
+        <button class="btn btn-secondary" type="button" id="button-addon2" (click)="search(searchText)"
+          [disabled]="buttonDisabled">Ara</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <fieldset class="row">
+        <legend class="col-form-label col-sm-2 pt-0"></legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" value="scholar" [(ngModel)]="selectedOption">
+            <label class="form-check-label" for="gridRadios1">
+              Google Scholar
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" value="dergipark" [(ngModel)]="selectedOption" checked>
+            <label class="form-check-label" for="gridRadios2">
+              Dergipark
+            </label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <div class="col-md-4">
+      <select class="form-select" aria-label="Filtrele" [(ngModel)]="selectedFilter" (change)="changeFilter()">
+        <option selected>Filtrele</option>
+        <option value="ad">Ad</option>
+        <option value="yazarlar">Yazarlar</option>
+        <option value="tur">Tur</option>
+        <option value="yayinlanmatarihienonce">Yayinlanma tarihi en önce</option>
+        <option value="yayinlanmatarihienson">Yayinlanma tarihi en son</option>
+        <option value="yayinciadi">Yayincı Adı</option>
+        <option value="anahtarkelime">Anahtar Kelime</option>
+        <option value="ozet">Özet</option>
+        <option value="alintisayisi">Alintı Sayısı</option>
+        <option value="doinumarasi">Doi Numarası</option>
+        <option value="url">Url</option>
+      </select>
+      <div class="mt-2" *ngIf="filtreleMetin">
+        <input class="form-check-input" type="text" [(ngModel)]="inputFiltreleMetin" class="form-control">
+      </div>
+      <button type="button" class="btn btn-primary mt-2" (click)="filtrele()">{{ filtreleButtonText }}</button>
+    </div>
+
+  </div>
+
+
+<div class="row mt-3" *ngIf="loading">
+  <div class="col-md-12 text-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="alert alert-success" role="alert" *ngIf="successMessage">
+      {{yayinListesi.length}} sonuç bulundu.
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-md-12">
+    <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+      {{errorMessage}}
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div *ngIf="result">
+  <app-result [yayinListesi]="yayinListesi"></app-result>
+</div>

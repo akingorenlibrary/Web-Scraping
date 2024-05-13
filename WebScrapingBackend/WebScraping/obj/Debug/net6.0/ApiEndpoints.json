@@ -1,0 +1,240 @@
+[
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "PostDergiPark",
+    "RelativePath": "api/WebScraping/dergipark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebScraping.Dto.SearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetAlintiSayisiAsync",
+    "RelativePath": "api/WebScraping/Filtrele/AlintiSayisi/{alintiSayisi}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alintiSayisi",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetContainsAnahtarKelime",
+    "RelativePath": "api/WebScraping/Filtrele/AnahtarKelime/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetDoiNumarasiAsync",
+    "RelativePath": "api/WebScraping/Filtrele/DoiNumarasi/{doiNumarasi}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doiNumarasi",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetContainsOzet",
+    "RelativePath": "api/WebScraping/Filtrele/Ozet/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetTurAsync",
+    "RelativePath": "api/WebScraping/Filtrele/Tur/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetUrlAsync",
+    "RelativePath": "api/WebScraping/Filtrele/Url/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "filtreleYayinAdi",
+    "RelativePath": "api/WebScraping/Filtrele/YayinAdi/{ad}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ad",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetContainsYayinciAdi",
+    "RelativePath": "api/WebScraping/Filtrele/YayinciAdi/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "YayinlanmaTarihiEnOnce",
+    "RelativePath": "api/WebScraping/Filtrele/YayinlanmaTarihiEnOnce",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "YayinlanmaTarihiEnSon",
+    "RelativePath": "api/WebScraping/Filtrele/YayinlanmaTarihiEnSon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "GetYazarlarAsync",
+    "RelativePath": "api/WebScraping/Filtrele/Yazarlar/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "pdfIndir",
+    "RelativePath": "api/WebScraping/pdfIndir/{text}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "Post",
+    "RelativePath": "api/WebScraping/scholar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebScraping.Dto.SearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "detay",
+    "RelativePath": "detay/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebScraping.Controllers.WebScrapingController",
+    "Method": "yayinlar",
+    "RelativePath": "yayinlar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

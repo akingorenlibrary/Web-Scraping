@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\controllers\\webscrapingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\controllers\\webscrapingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\services\\yayinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\services\\yayinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\services\\ielasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\services\\ielasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\services\\elasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\services\\elasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\entities\\yayin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\entities\\yayin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\dto\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\dto\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\dto\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\dto\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\dto\\detayrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\dto\\detayrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\configurations\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\configurations\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aking\\.nuget\\packages\\ironpdf\\2024.3.4\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|c:\\users\\aking\\desktop\\webscrapingbackend\\webscraping\\webscraping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F8E36F7-DE95-4EAF-B253-4FE62A697652}|WebScraping\\WebScraping.csproj|solutionrelative:webscraping\\webscraping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchResult.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Dto\\SearchResult.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Dto\\SearchResult.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Dto\\SearchResult.cs",
+              "RelativeToolTip": "WebScraping\\Dto\\SearchResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T13:41:37.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebScrapingController.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Controllers\\WebScrapingController.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Controllers\\WebScrapingController.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Controllers\\WebScrapingController.cs",
+              "RelativeToolTip": "WebScraping\\Controllers\\WebScrapingController.cs",
+              "ViewState": "AQIAACYBAAAAAAAAAAAgwDgBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:10:29.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IElasticsearchService.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Services\\IElasticsearchService.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Services\\IElasticsearchService.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Services\\IElasticsearchService.cs",
+              "RelativeToolTip": "WebScraping\\Services\\IElasticsearchService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:33:57.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElasticsearchService.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Services\\ElasticsearchService.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Services\\ElasticsearchService.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Services\\ElasticsearchService.cs",
+              "RelativeToolTip": "WebScraping\\Services\\ElasticsearchService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:21:21.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Yayin.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Entities\\Yayin.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Entities\\Yayin.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Entities\\Yayin.cs",
+              "RelativeToolTip": "WebScraping\\Entities\\Yayin.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:10:33.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetayRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Dto\\DetayRequest.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Dto\\DetayRequest.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Dto\\DetayRequest.cs",
+              "RelativeToolTip": "WebScraping\\Dto\\DetayRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:06:05.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YayinService.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Services\\YayinService.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Services\\YayinService.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Services\\YayinService.cs",
+              "RelativeToolTip": "WebScraping\\Services\\YayinService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:05:20.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Program.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Program.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Program.cs",
+              "RelativeToolTip": "WebScraping\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T11:00:20.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Configurations\\DatabaseSettings.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Configurations\\DatabaseSettings.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Configurations\\DatabaseSettings.cs",
+              "RelativeToolTip": "WebScraping\\Configurations\\DatabaseSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T13:08:25.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "README.txt",
+              "DocumentMoniker": "C:\\Users\\aking\\.nuget\\packages\\ironpdf\\2024.3.4\\README.txt",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\ironpdf\\2024.3.4\\README.txt",
+              "ToolTip": "C:\\Users\\aking\\.nuget\\packages\\ironpdf\\2024.3.4\\README.txt",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\ironpdf\\2024.3.4\\README.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-11T10:43:39.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Dto\\SearchRequest.cs",
+              "RelativeDocumentMoniker": "WebScraping\\Dto\\SearchRequest.cs",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\Dto\\SearchRequest.cs",
+              "RelativeToolTip": "WebScraping\\Dto\\SearchRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:06:06.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebScraping.csproj",
+              "DocumentMoniker": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\WebScraping.csproj",
+              "RelativeDocumentMoniker": "WebScraping\\WebScraping.csproj",
+              "ToolTip": "C:\\Users\\aking\\Desktop\\WebScrapingBackend\\WebScraping\\WebScraping.csproj",
+              "RelativeToolTip": "WebScraping\\WebScraping.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T14:40:09.872Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<div class="container mt-3">
+  <div class="card">
+    <div class="card-header">
+      Detaylar
+    </div>
+    <div class="card-body">
+      <div *ngIf="yayin?.ad">
+        <p><strong>Ad:</strong> {{ yayin.ad }}</p>
+      </div>
+      <div *ngIf="yayin?.yazarlar">
+        <p><strong>Yazarlar:</strong> {{ yayin.yazarlar }}</p>
+      </div>
+      <div *ngIf="yayin?.tur">
+        <p><strong>Tür:</strong> {{ yayin.tur }}</p>
+      </div>
+      <div *ngIf="yayin?.yayinlanmaTarihi">
+        <p><strong>Yayınlanma Tarihi:</strong> {{ yayin.yayinlanmaTarihi | date:'yyyy-MM-dd HH:mm' }}</p>
+      </div>
+      <div *ngIf="yayin?.yayinciAdi">
+        <p><strong>Yayıncı Adı:</strong> {{ yayin.yayinciAdi }}</p>
+      </div>
+      <div *ngIf="yayin?.anahtarKelimelerAramaMotoru">
+        <p><strong>Anahtar Kelimeler (Arama Motoru):</strong> {{ yayin.anahtarKelimelerAramaMotoru }}</p>
+      </div>
+      <div>
+        <p><strong>Alıntı Sayısı:</strong> 13</p>
+      </div>
+      <div *ngIf="yayin?.anahtarKelimelerMakaleyeAit">
+        <p><strong>Anahtar Kelimeler (Makaleye Ait):</strong> {{ yayin.anahtarKelimelerMakaleyeAit }}</p>
+      </div>
+      <div *ngIf="yayin?.ozet">
+        <p><strong>Özet:</strong> {{ yayin.ozet }}</p>
+      </div>
+      <div *ngIf="yayin?.alintiSayisi">
+        <p><strong>Alıntı Sayısı:</strong> {{ yayin.alintiSayisi }}</p>
+      </div>
+      <div *ngIf="yayin?.doiNumarasi">
+        <p><strong>DOI Numarası:</strong> {{ yayin.doiNumarasi }}</p>
+      </div>
+      
+      <div *ngIf="yayin?.url">
+        <p><strong>URL:</strong> <a [href]="yayin.url">{{ yayin.url }}</a></p>
+      </div>
+
+      <a class="btn btn-primary" (click)="pdfIndir()">Pdf indir</a>
+
+      <div class="alert alert-success mt-3" role="alert" *ngIf="pdfDownloadProccess">
+        Pdf indirildi
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
